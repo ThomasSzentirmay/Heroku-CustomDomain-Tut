@@ -60,10 +60,10 @@ You're website is now live on your custom domain!
 
 ## Troubleshooting
 
-There will always be the odd issue that could be caused for a multitude of reasons, but their are many ways to handle these, do don't worry.
+There will always be the odd issue that could be caused for a multitude of reasons, but their are many ways to handle these, so don't worry.
 
 - Search on the internet for people that have had the exact same problem as you > chances are they have found the fix for you
 - See what ChatGPT has to say. Whilst it's not always the best tool to go to, it can definitely provide accurate insights on specfic issues
-- Contact me. I would be happy to assist anyone facing specific issues when following this tutorial. I ran into quite a few myself, so reach out to me, and jopefully I can help you. Contact me at thomasszentirmay.com/contact
+- Contact me. I would be happy to assist anyone facing specific issues when following this tutorial. I ran into quite a few myself, so reach out to me, and hopefully I can help you. Contact me at www.thomasszentirmay.com/contact
 
 Thanks for reading! 
