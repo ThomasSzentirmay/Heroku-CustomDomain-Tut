@@ -28,7 +28,7 @@ You should now see a DNS target. We will be using this over in the google domain
 
 ### Step 4
 
-Head to [this link](domains.google.com), and enter the domain you set in your heroku app. Purchase the domain. Note that if the domain you set in heroku is not available, choose one that is up for sale in google domains, and then go and edit it in your heroku settings. If the DNS target changes, make sure to copy it again!
+Head to [this link](www.domains.google.com), and enter the domain you set in your heroku app. Purchase the domain. Note that if the domain you set in heroku is not available, choose one that is up for sale in google domains, and then go and edit it in your heroku settings. If the DNS target changes, make sure to copy it again!
 
 ### Step 5
 
