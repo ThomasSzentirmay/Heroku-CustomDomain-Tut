@@ -12,4 +12,5 @@ Hello all. I wanted to make an in-depth guide on getting your deployed heroku ap
 
 Head over to heroku, and click on your application. Go to your applications settings, and scroll down until you see a section about custom domains and SSL certificates.
 
-![tut-one](https://github.com/ThomasSzentirmay/Tech-Blog/assets/132217664/d578a524-fc24-4d45-b547-8744f4129e1e)
+<img width="1117" alt="Screenshot 2023-07-25 at 3 51 03 pm" src="https://github.com/ThomasSzentirmay/Heroku-CustomDomain-Tut/assets/132217664/4de18d32-14c0-4e47-93b5-8a897846444a">
+
