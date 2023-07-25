@@ -28,7 +28,7 @@ You should now see a DNS target. We will be using this over in the google domain
 
 ### Step 4
 
-Head to [this link](www.domains.google.com), and enter the domain you set in your heroku app. Purchase the domain. Note that if the domain you set in heroku is not available, choose one that is up for sale in google domains, and then go and edit it in your heroku settings. If the DNS target changes, make sure to copy it again!
+Head to domains.google.com, and enter the domain you set in your heroku app. Purchase the domain. Note that if the domain you set in heroku is not available, choose one that is up for sale in google domains, and then go and edit it in your heroku settings. If the DNS target changes, make sure to copy it again!
 
 ### Step 5
 
@@ -62,6 +62,6 @@ There will always be the odd issue that could be caused for a multitude of reaso
 
 - Search on the internet for people that have had the exact same problem as you > chances are they have found the fix for you
 - See what ChatGPT has to say. Whilst it's not always the best tool to go to, it can definitely provide accurate insights on specfic issues
-- Contact me. I would be happy to assist anyone facing specific issues when following this tutorial. I ran into quite a few myself, so reach out to me, and jopefully I can help you. Contact me [here](thomasszentirmay.com/contact)
+- Contact me. I would be happy to assist anyone facing specific issues when following this tutorial. I ran into quite a few myself, so reach out to me, and jopefully I can help you. Contact me at thomasszentirmay.com/contact
 
 Thanks for reading! 
