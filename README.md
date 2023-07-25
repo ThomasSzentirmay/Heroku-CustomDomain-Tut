@@ -16,7 +16,7 @@ Head over to heroku, and click on your application. Go to your applications sett
 
 ### Step 2
 
-Click on 'add domain', and in the domain name input, type in what you wish you custom domain to be. By default, No SNI Endpoint will be set. You can leave that as it is, and click next.
+Click on 'add domain', and in the domain name input, type in what you wish your custom domain to be. By default, No SNI Endpoint will be set. You can leave that as it is, and click next.
 
 <img width="500" alt="Screenshot 2023-07-25 at 3 54 16 pm" src="https://github.com/ThomasSzentirmay/Heroku-CustomDomain-Tut/assets/132217664/3b02a75a-a0af-4c71-b344-e797b50dcdf5">
 
