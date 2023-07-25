@@ -38,6 +38,30 @@ After purchasing your domain, click on it. Then click on the 'DNS' tab on the le
 
 ### Step 6
 
-In the 'Host name' input, enter 'www'. In the 'Type' input, select 'CNAME'. In the 'TTL' input, select '10 minutes' (it will display as the number 600). Then, in the 'Data' input, paste your DNS target you copied from heroku. See below for reference.
+In the 'Host name' input, enter 'www'. In the 'Type' input, select 'CNAME'. In the 'TTL' input, select '10 minutes' (it will display as the number 600). Then, in the 'Data' input, paste your DNS target you copied from heroku. Click 'save'. See below for reference.
 
 <img width="500" alt="Screenshot 2023-07-25 at 4 09 26 pm" src="https://github.com/ThomasSzentirmay/Heroku-CustomDomain-Tut/assets/132217664/f6b97b97-d943-48a1-af1a-7ae8bf4646e7">
+
+### Step 7
+
+Now that your google settings are saved, go back to your heroku settings, and scroll up to the SSL Certificates section above the DNS section. Click 'Automatic Certificate Management' (ACM), and click next.
+
+<img width="500" alt="Screenshot 2023-07-25 at 4 15 51 pm" src="https://github.com/ThomasSzentirmay/Heroku-CustomDomain-Tut/assets/132217664/e7ea3d7c-5cfc-4159-bdbd-778b72b4cdb8">
+
+### Step 8
+
+Now you can scroll back down to your DNS section, and you will see a pending ACM status on your custom domain information. This should take a minute or two to confirm. Click 'Refresh ACM Status' to see when the status has turned to 'Ok' with a green tick!
+
+<img width="500" alt="Screenshot 2023-07-25 at 4 20 19 pm" src="https://github.com/ThomasSzentirmay/Heroku-CustomDomain-Tut/assets/132217664/54ff8266-0ec9-4eef-9d40-4e0057d6be45">
+
+You're website is now live on your custom domain! 
+
+### Troubleshooting
+
+There will always be the odd issue that could be caused for a multitude of reasons, but their are many ways to handle these, do don't worry.
+
+- Search on the internet for people that have had the exact same problem as you > chances are they have found the fix for you
+- See what ChatGPT has to say. Whilst it's not always the best tool to go to, it can definitely provide accurate insights on specfic issues
+- Contact me. I would be happy to assist anyone facing specific issues when following this tutorial. I ran into quite a few myself, so reach out to me, and jopefully I can help you. Contact me [here](thomasszentirmay.com/contact)
+
+Thanks for reading! 
