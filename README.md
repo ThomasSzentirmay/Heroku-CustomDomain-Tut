@@ -32,7 +32,7 @@ Head to domains.google.com, and enter the domain you set in your heroku app. Pur
 
 ### Step 5
 
-After purchasing your domain, click on it. Then click on the 'DNS' tab on the left You will be taken to a settings page similar to below. If you can't see your domain, click on 'My Domains'. Note that your screen will look slightly different to mine below, as my custom domain is already set, but as long as you can see the 'Resource Records' section, than we can continue.
+After purchasing your domain, click on it. Then click on the 'DNS' tab on the left. You will be taken to a settings page similar to below. If you can't see your domain, click on 'My Domains'. Note that your screen will look slightly different to mine below, as my custom domain is already set, but as long as you can see the 'Resource Records' section, than we can continue.
 
 <img width="500" alt="Screenshot 2023-07-25 at 4 05 42 pm" src="https://github.com/ThomasSzentirmay/Heroku-CustomDomain-Tut/assets/132217664/bc9e6bcd-7004-4eef-9981-6b3e9839c3e7">
 
