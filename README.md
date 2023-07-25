@@ -12,17 +12,32 @@ Hello all. I wanted to make an in-depth guide on getting your deployed heroku ap
 
 Head over to heroku, and click on your application. Go to your applications settings, and scroll down until you see a section about custom domains and SSL certificates.
 
-<img width="750" alt="Screenshot 2023-07-25 at 3 51 03 pm" src="https://github.com/ThomasSzentirmay/Heroku-CustomDomain-Tut/assets/132217664/4de18d32-14c0-4e47-93b5-8a897846444a">
+<img width="500" alt="Screenshot 2023-07-25 at 3 51 03 pm" src="https://github.com/ThomasSzentirmay/Heroku-CustomDomain-Tut/assets/132217664/4de18d32-14c0-4e47-93b5-8a897846444a">
 
 ### Step 2
 
 Click on 'add domain', and in the domain name input, type in what you wish you custom domain to be. By default, No SNI Endpoint will be set. You can leave that as it is, and click next.
 
-<img width="750" alt="Screenshot 2023-07-25 at 3 54 16 pm" src="https://github.com/ThomasSzentirmay/Heroku-CustomDomain-Tut/assets/132217664/3b02a75a-a0af-4c71-b344-e797b50dcdf5">
+<img width="500" alt="Screenshot 2023-07-25 at 3 54 16 pm" src="https://github.com/ThomasSzentirmay/Heroku-CustomDomain-Tut/assets/132217664/3b02a75a-a0af-4c71-b344-e797b50dcdf5">
 
 ### Step 3 
 
 You should now see a DNS target. We will be using this over in the google domains site, so copy it to your clipboard.
 
-<img width="750" alt="Screenshot 2023-07-25 at 3 58 37 pm" src="https://github.com/ThomasSzentirmay/Heroku-CustomDomain-Tut/assets/132217664/55837b4c-b8ec-414d-9f78-e2e8b9dfb50a">
+<img width="500" alt="Screenshot 2023-07-25 at 3 58 37 pm" src="https://github.com/ThomasSzentirmay/Heroku-CustomDomain-Tut/assets/132217664/55837b4c-b8ec-414d-9f78-e2e8b9dfb50a">
 
+### Step 4
+
+Head to [this link](domains.google.com), and enter the domain you set in your heroku app. Purchase the domain. Note that if the domain you set in heroku is not available, choose one that is up for sale in google domains, and then go and edit it in your heroku settings. If the DNS target changes, make sure to copy it again!
+
+### Step 5
+
+After purchasing your domain, click on it. Then click on the 'DNS' tab on the left You will be taken to a settings page similar to below. If you can't see your domain, click on 'My Domains'. Note that your screen will look slightly different to mine below, as my custom domain is already set, but as long as you can see the 'Resource Records' section, than we can continue.
+
+<img width="500" alt="Screenshot 2023-07-25 at 4 05 42 pm" src="https://github.com/ThomasSzentirmay/Heroku-CustomDomain-Tut/assets/132217664/bc9e6bcd-7004-4eef-9981-6b3e9839c3e7">
+
+### Step 6
+
+In the 'Host name' input, enter 'www'. In the 'Type' input, select 'CNAME'. In the 'TTL' input, select '10 minutes' (it will display as the number 600). Then, in the 'Data' input, paste your DNS target you copied from heroku. See below for reference.
+
+<img width="500" alt="Screenshot 2023-07-25 at 4 09 26 pm" src="https://github.com/ThomasSzentirmay/Heroku-CustomDomain-Tut/assets/132217664/f6b97b97-d943-48a1-af1a-7ae8bf4646e7">
