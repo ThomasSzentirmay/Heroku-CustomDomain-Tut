@@ -7,3 +7,9 @@ Hello all. I wanted to make an in-depth guide on getting your deployed heroku ap
 #### Please note a couple of Things before beginning
 - You will need to have your heroku app of choice deployed and live (there are many tutorials for this else-where)
 - Custom Domains aren't free! I will be including the steps to purchase a cheap google domain in this guide, so be willing to spend around $10
+
+### Step 1
+
+Head over to heroku, and click on your application. Go to your applications settings, and scroll down until you see a section about custom domains and SSL certificates.
+
+![tut-one](https://github.com/ThomasSzentirmay/Tech-Blog/assets/132217664/fb39e660-be1a-49cc-a830-87eae6113ee6)
