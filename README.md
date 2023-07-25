@@ -54,9 +54,11 @@ Now you can scroll back down to your DNS section, and you will see a pending ACM
 
 <img width="500" alt="Screenshot 2023-07-25 at 4 20 19 pm" src="https://github.com/ThomasSzentirmay/Heroku-CustomDomain-Tut/assets/132217664/54ff8266-0ec9-4eef-9d40-4e0057d6be45">
 
+
 You're website is now live on your custom domain! 
 
-### Troubleshooting
+
+## Troubleshooting
 
 There will always be the odd issue that could be caused for a multitude of reasons, but their are many ways to handle these, do don't worry.
 
